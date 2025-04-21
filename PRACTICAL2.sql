@@ -30,6 +30,8 @@ INSERT INTO product (p_name, price) VALUES
 ('Noise Cancelling Headphones', 4999),
 ('Fitness Tracker', 2999);
 
+SELECT * FROM PRODUCT;
+
 INSERT INTO customer VALUES
 (1, 'Ravi Kumar', 'bengaluru'),
 (2, 'Sneha Rao', 'mysore'),
@@ -41,6 +43,27 @@ INSERT INTO customer VALUES
 (8, 'Anjali Gowda', 'mysore'),
 (9, 'Suresh Reddy', 'bengaluru'),
 (10, 'Pooja Sharma', 'mysore');
+
+SELECT * FROM CUSTOMER;
+----update_
+
+UPDATE PRODUCT
+SET P_NAME='WATER BOTTLE'
+WHERE P_ID= 4;
+
+SELECT * FROM PRODUCT;
+
+UPDATE CUSTOMER
+SET CITY="MYSORE"
+WHERE C_ID= 3;
+
+SELECT * FROM CUSTOMER;
+
+
+
+
+
+
 
 
 
